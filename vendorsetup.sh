@@ -1,0 +1,2 @@
+add_lunch_combo omni_VFD600-eng
+add_lunch_combo omni_VFD600-userdebug
