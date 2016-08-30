@@ -23,7 +23,7 @@ $(call inherit-product, device/Vodafone/VFD600/full_VFD600.mk)
 
 PRODUCT_NAME := omni_VFD600
 
-RODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/fstab.qcom:recovery/root/fstab.qcom \
     $(LOCAL_PATH)/rootdir/root/init.qcom.rc:recovery/root/init.qcom.rc \
     $(LOCAL_PATH)/rootdir/root/init.qcom.usb.rc:recovery/root/init.qcom.usb.rc \
