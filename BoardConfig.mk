@@ -57,11 +57,6 @@ TARGET_RECOVERY_FSTAB := device/Vodafone/VFD600/recovery/root/etc/twrp.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # TWRP
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TARGET_RECOVERY_QCOM_RTC_FIX := true
-BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_DEFAULT_EXTERNAL_STORAGE := true
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_INCLUDE_CRYPTO := true
 TW_THEME := portrait_hdpi
