@@ -7,5 +7,5 @@ Based on Omni-6.0 TWRP sources
 ### Compile GUIDE
 ```sh
 . build/envsetup.sh
-lunch omni_VFD600-eng
-make -j5 recoveryimage
+lunch omni_VFD600-userdebug
+make recoveryimage
