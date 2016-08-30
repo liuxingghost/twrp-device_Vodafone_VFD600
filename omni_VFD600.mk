@@ -36,4 +36,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/init.qcom.early_boot.sh:recovery/root/init.qcom.early_boot.sh \
     $(LOCAL_PATH)/rootdir/root/init.qcom.sh:recovery/root/init.qcom.sh \
     $(LOCAL_PATH)/rootdir/root/init.qcom.syspart_fixup.sh:recovery/root/init.qcom.syspart_fixup.sh \
-    $(LOCAL_PATH)/rootdir/root/init.qcom.usb_zte.sh:recovery/root/init.qcom.usb_zte.sh \
+    $(LOCAL_PATH)/rootdir/root/init.qcom.usb_zte.sh:recovery/root/init.qcom.usb_zte.sh
