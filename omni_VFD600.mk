@@ -30,3 +30,14 @@ PRODUCT_MODEL := VFD600
 PRODUCT_BRAND := Vodafone
 
 PRODUCT_GMS_CLIENTID_BASE := android-Vodafone
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.mmi.boot.sh \
+    init.mmi.touch.sh \
+    init.qcom.ril.sh
+
+PRODUCT_PACKAGES += \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    ueventd.qcom.rc
