@@ -66,23 +66,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 
-# SELinux
-include device/qcom/sepolicy/sepolicy.mk
-
-BOARD_SEPOLICY_DIRS += \
-    device/Vodafone/VFD600/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    bootanim.te \
-    diag.te \
-    file.te \
-    file_contexts \
-    init.te \
-    mm-qcamerad.te \
-    mpdecision.te \
-    netd.te \
-    system_server.te 
-
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 BOARD_VOLD_DISC_HAS_MULTIPLE_MAJORS := true
